@@ -4,5 +4,5 @@ def get_count(input_str):
 	for char in input_str:
 		if char in vowels:
 			count +=1
-		return count
+	return count
 print(get_count("Hello world"))
